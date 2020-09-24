@@ -1,0 +1,21 @@
+1) Create package.json with required packages(mochajs, webdriver)
+2) Create pages directory
+3) Add Homepage class file
+4) Find all required selectors for appropriate elements(title, search input, search button, etc.)
+5) Define required tests
+6) Write the tests
+7) Find a way to take the screenshot via webdriver
+
+Technology/tool stack:
+• using mochajs as test automation framework: https://github.com/mochajs/mocha
+• using IntelliJ as code editor: https://www.jetbrains.com/idea/download/
+• using page object pattern or other test automation best practice
+• push the solution code to github
+
+Test scenario:
+1. open imdb.com
+2. search for "games of thrones"
+3. find and open Video Game related search results
+4. verify correct page is opened
+5. make a screenshot
+6. push to github
